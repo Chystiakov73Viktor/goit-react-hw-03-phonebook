@@ -1,0 +1,44 @@
+.formContact {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  border: 1px solid #2a2a2a;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.label {
+  display: block;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.input {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
+
+.buttonContact {
+  width: 90px;
+  margin-top: 8px;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #2a2a2a;
+  font-size: 12px;
+  line-height: 1.5;
+
+  &:hover,
+  &:focus {
+    background-color: rgb(66, 156, 212);
+    color: #fff;
+  }
+}
+
+.errorText {
+  color: red;
+}

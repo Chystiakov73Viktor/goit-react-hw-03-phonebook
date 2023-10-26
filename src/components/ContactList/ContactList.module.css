@@ -1,0 +1,37 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  width: 320px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.button {
+  width: 55px;
+  padding: 0;
+  border-radius: 4px;
+  border: 1px solid #2a2a2a;
+  font-size: 12px;
+  line-height: 1.5;
+
+  &:hover,
+  &:focus {
+    background-color: rgb(66, 156, 212);
+    color: #fff;
+  }
+}

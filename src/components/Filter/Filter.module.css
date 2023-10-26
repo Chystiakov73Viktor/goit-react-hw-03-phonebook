@@ -1,0 +1,12 @@
+.container {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.input {
+  margin-left: 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid #000;
+  border-radius: 4px;
+}
